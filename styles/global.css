@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* fonts */
+@font-face {
+  font-family: Inter;
+  src: url('/assets/fonts/Inter.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url('/assets/fonts/Inconsolata.ttf') format('ttf');
+  font-display: swap;
+}
+
+
+/* cursor blink animation */
+.blink {
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
