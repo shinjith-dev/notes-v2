@@ -1,4 +1,5 @@
 ---
+layout: layouts/global.njk
 title: First Page on Notes v2
 date: 2024-12-29T21:37:00.000Z
 ---

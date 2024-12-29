@@ -4,7 +4,8 @@ export default {
     "./wiki/**/*.html",
     "./admin/**/*.html",
     "./note/**/*.html",
-    "./index.html"
+    "./_includes/**/*.{html,njk}",
+    "./index.njk"
   ],
   darkMode: "selector",
   theme: {

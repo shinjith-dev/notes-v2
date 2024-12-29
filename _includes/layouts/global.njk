@@ -1,10 +1,14 @@
+---
+title: Notes
+---
+
 <!DOCTYPE html>
 <html lang="en" class="dark">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Notes | Shinjith P R</title>
+  <title>{{ title }} | Shinjith</title>
   <link rel="stylesheet" href="/bundle.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -27,29 +31,8 @@
     </div>
   </nav>
   <main class="px-4 py-7 flex-col flex gap-5 font-mono">
-    <p>hello, this is shinjith,</p>
-    <p>
-      a software engineer from kerala.<br />
-      this is a small corner where i keep notes on various topics and<br />
-      write blogs [very rarely].
-    </p>
-
-    <p>
-      here you can discover notes on web development, cyber security, and other topics.<br />
-      feel free to read and study anything from here.<br />
-      sorry, contributions are not currently accepted :(.
-    </p>
-
-    <p>
-      want to know me more? checkout at <a class="text-brand underline" href="https://shinjith.dev">shinjith.dev</a>
-    </p>
-
-    <p>
-      please <a class="underline" href="https://shinjith.dev/#contact">stay in touch</a>, good day!
+   {{ content | safe }}
   </main>
-
-
-
   <script src="/bundle.js"></script>
 </body>
 

@@ -1,7 +1,4 @@
 import 'dotenv/config'
-import fs from 'fs';
-
-console.log(process.env)
 
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("bundle.css");
