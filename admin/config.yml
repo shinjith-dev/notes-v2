@@ -16,7 +16,7 @@ collections:
   - name: "note"
     label: "Note"
     folder: 'note'
-    create: false
+    create: true
     slug: "{{slug}}-{{year}}{{month}}{{day}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "note" }
@@ -26,7 +26,7 @@ collections:
   - name: "wiki"
     label: "Wiki"
     folder: 'wiki'
-    create: false
+    create: true
     slug: "{{slug}}-{{year}}{{month}}{{day}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "note" }

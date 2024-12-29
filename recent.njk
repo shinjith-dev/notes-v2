@@ -1,0 +1,9 @@
+<ul>
+  {% for item in collections.recentlyModified %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a> 
+      (Last Modified: {{ item.modifiedDate }})
+    </li>
+  {% endfor %}
+</ul>
+
