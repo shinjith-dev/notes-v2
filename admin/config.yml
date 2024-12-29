@@ -35,4 +35,4 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
 site_url: https://notes.shinjith.dev
-logo_url: https://shinjith.dev/assets/favicon/favicon-32x32.png
+logo_url: https://shinjith.dev/assets/favicon/android-chrome-512x512.png
