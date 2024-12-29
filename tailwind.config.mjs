@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./**/*.{html,js}"],
+  content: [
+    "./wiki/**/*.html",
+    "./admin/**/*.html",
+    "./note/**/*.html",
+    "./index.html"
+  ],
   darkMode: "selector",
   theme: {
     fontFamily: {

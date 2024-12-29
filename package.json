@@ -12,7 +12,8 @@
     "build": "eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
     "concurrently": "^9.1.1",

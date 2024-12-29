@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: create {{collection}}/{{slug}}
+    update: update {{collection}}/{{slug}}
+    delete: delete {{collection}}/{{slug}}
+    uploadMedia: upload {{path}}
+    deleteMedia: delete {{path}}
+    openAuthoring: '{{message}}'
+
+media_folder: "_site/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "note"
+    label: "Note"
+    folder: 'note'
+    create: false
+    slug: "{{slug}}-{{year}}{{month}}{{day}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "note" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "wiki"
+    label: "Wiki"
+    folder: 'wiki'
+    create: false
+    slug: "{{slug}}-{{year}}{{month}}{{day}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "note" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+site_url: https://notes.shinjith.dev
+logo_url: https://shinjith.dev/assets/favicon/favicon-32x32.png
