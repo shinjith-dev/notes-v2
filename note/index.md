@@ -4,4 +4,4 @@ date: 2024-12-29T21:37:00.000Z
 ---
 ## Voila! just like that.
 
-I hosted a simple blogging site w/o any charges. Now fuck aws
+I hosted a simple blogging site w/o any charges.
