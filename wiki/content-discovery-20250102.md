@@ -1,6 +1,6 @@
 ---
 layout: layouts/wiki.njk
-title: Filw Inclusion
+title: File Inclusion
 date: 2025-01-03T02:24:00.000Z
 ---
 File Inclusion vulnerabilities often affect web applications that rely on a scripting run time, and occur when a web application allows users to submit input into files or upload files to the server. They are often found in poorly-written applications.
