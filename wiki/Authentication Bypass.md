@@ -1,4 +1,5 @@
 ---
+layout: layouts/global.njk"
 title: Authentication Bypass
 date: 2025-01-03T00:14:00.000Z
 ---
