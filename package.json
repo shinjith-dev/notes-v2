@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "dev": "concurrently --kill-others \"tailwindcss -i ./styles/global.css -o ./bundle.css --watch\" \"eleventy --serve\"",
-    "build": "tailwindcss -i ./styles/global.css -o ./bundle.css && eleventy"
+    "prebuild": "tailwindcss -i ./styles/global.css -o ./bundle.css --minify",
+    "build": "eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
