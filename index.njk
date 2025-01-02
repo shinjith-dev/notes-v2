@@ -24,4 +24,20 @@ title: Notes
 <p>
   please <a class="underline" href="https://shinjith.dev/#contact">stay in touch</a>, good day!
 </p>
+<h3 class="text-2xl font-medium mt-5">Recent Updates</h3>
+<ul class="space-y-3">
+  {% for item in collections.recentlyModified %}
+    <li>
+      <a href="{{ item.url }}" class="flex gap-3">
+      <span>-</span>
+      {{ item.title }},
+      <p class="text-[#fff]/80">
+    {{ item.modifiedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+
+</p>
+</a>
+    </li>
+  {% endfor %}
+</ul>
+
 </div>
