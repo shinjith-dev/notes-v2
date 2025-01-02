@@ -1,4 +1,5 @@
 ---
+layout: layouts/wiki.njk
 title: ARP
 date: 2025-01-03T00:12:00.000Z
 ---
