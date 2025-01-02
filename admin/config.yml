@@ -21,10 +21,15 @@ collections:
     fields:
       - label: "Layout"
         name: "layout"
-        widget: "hidden"
-        default: "note"
+        widget: "select"
+        default: "layout/note.njk"
+        options:
+          - { label: "Global", value: "layouts/global.njk" }
+          - { label: "Wiki", value: "layouts/note.njk" }
+        multiple: false
+        max: 1
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Modified Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "wiki"
     label: "Wiki"
@@ -42,7 +47,7 @@ collections:
         multiple: false
         max: 1
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Modified Date", name: "date", widget: "date" }
+      - { label: "Modified Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
 
 site_url: https://notes.shinjith.dev
