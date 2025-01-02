@@ -1,6 +1,17 @@
 ---
 title: Note
-layout: global.njk
+layout: layouts/global.njk
 ---
 
-{{ content | safe }}
+<div>
+<h1 class="text-4xl font-bold mb-2">
+{{ title }}
+</h1>
+<p class="text-sm text-subtle mb-5">
+Updated on {{ date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+</p>
+
+<div class="max-w-full text-wrap markdown font-serif">
+  {{ content | safe }}
+</div>
+</div>
