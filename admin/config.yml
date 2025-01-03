@@ -17,8 +17,9 @@ collections:
     label: "Note"
     folder: 'note'
     create: true
-    slug: "{{slug}}-{{year}}{{month}}{{day}}"
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
       - label: "Layout"
         name: "layout"
         widget: "select"
@@ -28,15 +29,15 @@ collections:
           - { label: "Wiki", value: "layouts/note.njk" }
         multiple: false
         max: 1
-      - { label: "Title", name: "title", widget: "string" }
       - { label: "Modified Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "wiki"
     label: "Wiki"
     folder: 'wiki'
     create: true
-    slug: "{{slug}}-{{year}}{{month}}{{day}}"
+    slug: "{{slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string" }
       - label: "Layout"
         name: "layout"
         widget: "select"
@@ -46,7 +47,6 @@ collections:
           - { label: "Wiki", value: "layouts/wiki.njk" }
         multiple: false
         max: 1
-      - { label: "Title", name: "title", widget: "string" }
       - { label: "Modified Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
 
