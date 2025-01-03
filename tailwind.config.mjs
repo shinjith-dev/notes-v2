@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./wiki/**/*.html",
-    "./admin/**/*.html",
+    "./wiki/**/*.{html,njk}",
+    "./admin/**/*.{html,njk}",
     "./note/**/*.html",
     "./_includes/**/*.{html,njk}",
     "./index.njk"
