@@ -10,8 +10,9 @@
   "scripts": {
     "dev": "concurrently --kill-others \"tailwindcss -i ./styles/global.css -o ./bundle.css --watch\" \"eleventy --serve\"",
     "pagefind": "pagefind --site _site",
-    "prebuild": "tailwindcss -i ./styles/global.css -o ./bundle.css --minify && pagefind --site _site",
-    "build": "eleventy"
+    "prebuild": "tailwindcss -i ./styles/global.css -o ./bundle.css --minify",
+    "build": "eleventy",
+    "postbuild": "pagefind --site _site"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
