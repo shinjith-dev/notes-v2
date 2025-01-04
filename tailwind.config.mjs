@@ -11,7 +11,7 @@ export default {
   darkMode: "selector",
   theme: {
     fontFamily: {
-      serif: ["Inter", "serif"],
+      serif: ["Rubik", "serif"],
       display: ['"Oleo Script"', "cursive"],
       mono: ['"Inconsolata"', "monospace"],
     },

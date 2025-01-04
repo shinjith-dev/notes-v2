@@ -27,7 +27,7 @@
   --pagefind-ui-border-radius: 12px;
   --pagefind-ui-image-border-radius: 8px;
   --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: Inter;
+  --pagefind-ui-font: Rubik;
 }
 
 .dark {
@@ -40,8 +40,8 @@
 
 /* fonts */
 @font-face {
-  font-family: Inter;
-  src: url('/assets/fonts/Inter.ttf') format('ttf');
+  font-family: Rubik;
+  src: url('/assets/fonts/Rubik.ttf') format('ttf');
   font-display: swap;
 }
 
@@ -173,10 +173,6 @@
   text-decoration: none;
 }
 
-.markdown {
-  line-height: 1.85;
-}
-
 .markdown li {
   font-size: 1rem;
   margin-bottom: 0.7rem;
@@ -197,9 +193,9 @@
 .markdown .retro-h3,
 .markdown h4,
 .markdown .retro-h4 {
-  margin: 1.414rem 0 0.5rem;
+  margin: 1rem 0 0.5rem;
   font-weight: 600;
-  line-height: 1.42;
+  line-height: 2em;
 }
 
 .markdown h1,
@@ -256,7 +252,7 @@
 .markdown {
   color: var(--dark-100);
   font-family: inherit;
-  line-height: 1.45;
+  line-height: 2em;
 }
 
 .markdown pre {

@@ -567,6 +567,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -666,7 +670,7 @@ video {
 }
 
 .font-serif {
-  font-family: Inter, serif;
+  font-family: Rubik, serif;
 }
 
 .text-2xl {
@@ -757,7 +761,7 @@ video {
   --pagefind-ui-border-radius: 12px;
   --pagefind-ui-image-border-radius: 8px;
   --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: Inter;
+  --pagefind-ui-font: Rubik;
 }
 
 .dark {
@@ -771,9 +775,9 @@ video {
 /* fonts */
 
 @font-face {
-  font-family: Inter;
+  font-family: Rubik;
 
-  src: url('/assets/fonts/Inter.ttf') format('ttf');
+  src: url('/assets/fonts/Rubik.ttf') format('ttf');
 
   font-display: swap;
 }
@@ -893,10 +897,6 @@ video {
   text-decoration: none;
 }
 
-.markdown {
-  line-height: 1.85;
-}
-
 .markdown li {
   font-size: 1rem;
   margin-bottom: 0.7rem;
@@ -917,9 +917,9 @@ video {
 .markdown .retro-h3,
 .markdown h4,
 .markdown .retro-h4 {
-  margin: 1.414rem 0 0.5rem;
+  margin: 1rem 0 0.5rem;
   font-weight: 600;
-  line-height: 1.42;
+  line-height: 2em;
 }
 
 .markdown h1,
@@ -973,7 +973,7 @@ video {
   min-height: 100%;
   color: var(--dark-100);
   font-family: inherit;
-  line-height: 1.45;
+  line-height: 2em;
 }
 
 .markdown pre {
