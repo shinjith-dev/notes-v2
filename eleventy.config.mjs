@@ -21,3 +21,6 @@ export default function(eleventyConfig) {
   );
 };
 
+export const config = {
+  markdownTemplateEngine: false
+};

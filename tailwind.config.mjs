@@ -5,7 +5,8 @@ export default {
     "./admin/**/*.{html,njk}",
     "./note/**/*.html",
     "./_includes/**/*.{html,njk}",
-    "./index.njk"
+    "./index.njk",
+    "./search.njk"
   ],
   darkMode: "selector",
   theme: {
