@@ -1,7 +1,7 @@
 ---
-title: Wiki
+title: Note
 layout: layouts/global.njk
-tags: wiki
+tags: note
 ---
 
 <div>
@@ -11,7 +11,15 @@ tags: wiki
 <p class="text-sm text-subtle mb-3">
 Updated on {{ date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}
 </p>
+
+<div class="flex flex-wrap gap-3 mb-3">
+{%- for tag in tags -%}
+  <a href="#">#{{ tag }}</a>
+{%- endfor -%}
+</div>
+
 <hr class="border-dark-400 mb-7"/>
+
 
 <div class="max-w-full text-wrap markdown font-serif">
   {{ content | safe }}

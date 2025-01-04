@@ -23,12 +23,18 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "select"
-        default: "layout/note.njk"
+        default: "layouts/note.njk"
         options:
           - { label: "Global", value: "layouts/global.njk" }
           - { label: "Wiki", value: "layouts/note.njk" }
         multiple: false
         max: 1
+      - label: "Tags"
+        name: 'tags'
+        widget: 'list'
+        default: ['web']
+        allow_add: true
+        collapsed: false
       - { label: "Modified Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "wiki"
@@ -41,7 +47,7 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "select"
-        default: "layout/wiki.njk"
+        default: "layouts/wiki.njk"
         options:
           - { label: "Global", value: "layouts/global.njk" }
           - { label: "Wiki", value: "layouts/wiki.njk" }

@@ -1,6 +1,6 @@
 ---
 title: Content Discovery
-layout: layout/wiki.njk
+layout: layouts/wiki.njk
 date: 2025-01-04T03:44:00.000Z
 ---
 This content could be, for example, pages or portals intended for staff usage, older versions of the website, backup files, configuration files, administration panels, etc.
