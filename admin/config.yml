@@ -26,7 +26,7 @@ collections:
         default: "layouts/note.njk"
         options:
           - { label: "Global", value: "layouts/global.njk" }
-          - { label: "Wiki", value: "layouts/note.njk" }
+          - { label: "Note", value: "layouts/note.njk" }
         multiple: false
         max: 1
       - label: "Tags"
