@@ -1,5 +1,5 @@
 ---
-title: Create a Blogging Platform With No Backend (Zero Hosting Fee)
+title: Create a Blogging Platform With No Backend (Zero Hosting Charge)
 layout: layouts/note.njk
 tags:
   - web
