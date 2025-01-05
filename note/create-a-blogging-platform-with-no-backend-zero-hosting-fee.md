@@ -297,6 +297,6 @@ You can use [pagefind](https://pagefind.app/) to index your pages and implement 
 
 I tried to keep the blog simple and short as possible. If you find any step missing or not mentioned properly drop a comment.
 
-Checkout the source code of my website if you need reference, [https://github.com/shinjith-dev/notes-v2](https://github.com/shinjith-dev/notes-v2)
+Checkout the source code of [my website](https://notes.shinjith.dev) if you need reference, [https://github.com/shinjith-dev/notes-v2](https://github.com/shinjith-dev/notes-v2)
 
 Good day! 
